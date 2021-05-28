@@ -1,0 +1,34 @@
+{
+  "name" : "Refresh Region Display Selector Region",
+  "version" : "v1.0",
+  "description" : "This plugin can be used for refreshing the regions under the Region Display Selector.Multiple regions can be refreshed.",
+  "keywords" : ["Refresh","Refresh region Display Selector","RDS Refresh","dynamic action"],
+  "homepage" : "https://github.com/akilr/Refresh-RDS-Regions",
+  "bugs" : {
+    "url" : "https://github.com/akilr/Refresh-RDS-Regions/issues",
+    "email" : "akilr2096@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Akil R",
+    "email" : "akilr2096@gmail.com",
+    "url" : "https://www.linkedin.com/in/akil-r-639812180/",
+    "twitter" : "akil_ramesh96"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/akilr/Refresh-RDS-Regions.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1", "12.2.0.1", "18.4.0.0","19.0.0.0.0","19.2.0.0.19","21.0.0.0.0","21.1.0.0.0","21.1.0.0.1"],
+    "apex" : {
+      "versions" : ["5.1.3","18.1.0.00.45","8.2.0.00.12","19.1.0.00.15","19.2.0.00.18","20.1.0.00.13","20.2.0.00.20","21.1.0"],
+      "plugin" : {
+        "internalName" : "REFRESH.RDS.REGION",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/workspace_akil/r/demo/refresh-rds-region-plug-in",
+        "previewImage" : "https://raw.githubusercontent.com/akilr/Refresh-RDS-Regions/master/RDS_REGION_REFRESH.gif"
+      }
+    }
+  }
+}
