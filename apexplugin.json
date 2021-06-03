@@ -1,6 +1,6 @@
 {
   "name" : "Refresh Region Display Selector Region",
-  "version" : "v1.0",
+  "version" : "v1.1",
   "description" : "This plugin can be used for refreshing the regions under the Region Display Selector.Multiple regions can be refreshed.",
   "keywords" : ["Refresh","Refresh region Display Selector","RDS Refresh","dynamic action"],
   "homepage" : "https://github.com/akilr/Refresh-RDS-Regions",
